@@ -46,13 +46,13 @@ def download_hugging_face_embeddings():
 
 # testing
 
-if __name__ == "__main__":
-    data = "/Users/said313/Desktop/ml_projects/rag_projects/medical_chatbot/rag_medical_chatbot/data"
-    docs = load_pdf_file(data)
-    print(f"Loaded {len(docs)} documents.")
-    minimal_docs = filter_to_minimal_docs(docs)
-    print(f"Filtered to {len(minimal_docs)} minimal documents.")
-    text_chunks = text_split(minimal_docs)
-    print(f"Split into {len(text_chunks)} text chunks.")
-    embeddings = download_hugging_face_embeddings()
-    print("Downloaded HuggingFace embeddings.")
+# if __name__ == "__main__":
+#     data = "/Users/said313/Desktop/ml_projects/rag_projects/medical_chatbot/rag_medical_chatbot/data"
+#     docs = load_pdf_file(data)
+#     print(f"Loaded {len(docs)} documents.")
+#     minimal_docs = filter_to_minimal_docs(docs)
+#     print(f"Filtered to {len(minimal_docs)} minimal documents.")
+#     text_chunks = text_split(minimal_docs)
+#     print(f"Split into {len(text_chunks)} text chunks.")
+#     embeddings = download_hugging_face_embeddings()
+#     print("Downloaded HuggingFace embeddings.")
