@@ -25,7 +25,7 @@ pinecone_api_key = PINECONE_API_KEY
 pc = Pinecone(api_key=pinecone_api_key)
 
 
-
+# medical-chatbot
 index_name = "medical-chatbot"  # change if desired
 
 if not pc.has_index(index_name):
